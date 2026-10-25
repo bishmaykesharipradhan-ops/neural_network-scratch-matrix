@@ -82,6 +82,8 @@ This experiment explores how multiple hidden layers can be connected and trained
 
 These experiments implement the neural-network calculations manually rather than using frameworks such as PyTorch or TensorFlow.
 
+NOTE - The experiments generate training data and initialize parameters within their scripts. Results may vary between runs when random initialization or random training data are used.
+
 ## Requirements
 
 Python 3 and NumPy are required.
@@ -91,28 +93,6 @@ Install NumPy with:
 ```bash
 python3 -m pip install numpy
 ```
-
-## How to Run
-
-Run any experiment independently from the repository directory:
-
-```bash
-python3 neuron_matrix.py
-```
-
-```bash
-python3 neural_network_linear_matrix.py
-```
-
-```bash
-python3 neural_network_non-linear_matrix.py
-```
-
-```bash
-python3 multi_layer_neural_network.py
-```
-
-The experiments generate training data and initialize parameters within their scripts. Results may vary between runs when random initialization or random training data are used.
 
 ## Purpose
 
